@@ -1,4 +1,5 @@
-//Z가 x보다 크면 Hello, x가 z보다 작거나 같으면 Hi 출력
+// Z가 X보다 크면 Hello
+// Z가 X보다 작거나 같으면 Hi 출력
 export const FirstProblem = () => {
     let z = 5;
     let x = 7;
@@ -18,9 +19,10 @@ export const FirstProblem = () => {
             
             <pre>{
                 `
-    z = ${z}                           
-    result = ${result}              
-    ternaryResult = ${ternaryResult}               
+    z = ${z}                            // 5        
+    x = ${x}                            // 7
+    result = ${result}                  Hi  
+    ternaryResult = ${ternaryResult}              
                 `
             }</pre>
         </div>
